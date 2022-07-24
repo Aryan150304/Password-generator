@@ -1,0 +1,168 @@
+.light {
+  animation: mymov 1s;
+}
+
+@keyframes mymov {
+  from {
+    background-color: #1F2937;
+  }
+
+  to {
+    background-color: #EBFDF5;
+  }
+}
+
+body {
+  background-color: #EBFDF5;
+}
+
+.row {
+  margin: 0;
+}
+
+img {
+  width: 91%;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 4.5rem;
+  margin-top: 115px;
+  padding-left: 10%;
+  color: #2B283A;
+  letter-spacing: -0.05em;
+  margin-bottom: 2rem;
+}
+
+.heading-2 {
+  color: #10B981;
+}
+
+.main-para {
+  margin-left: 10%;
+  padding-left: 7px;
+  font-size: 30px;
+  line-height: 28px;
+  font-family: 'Inter', sans-serif;
+  color: #6B7280;
+}
+
+.btn {
+  margin-left: 11%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  align-items: center;
+  background: #10B981;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 4rem;
+}
+
+hr {
+  width: 90%;
+  height: 0px;
+  margin-left: 10%;
+  border: 1px solid #D5D4D8;
+  margin-top: 5rem;
+}
+
+.password {
+  position: relative;
+  width: 250px;
+  height: 55px;
+  background: #273549;
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 11%;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #10B981;
+  color: white;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+  border: none;
+}
+
+.para-pass {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #5DEF92;
+  margin-top: 10px;
+}
+
+.btn:focus {
+  background: #10B981;
+  color: white;
+}
+
+.icon-cont {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #2C283A;
+  border-radius: 100px;
+  background-color: #2C283A;
+  color: white;
+}
+
+.dark {
+  background-color: #1F2937;
+  animation: mymove 1s;
+}
+
+@keyframes mymove {
+  from {
+    background-color: #EBFDF5;
+  }
+
+  to {
+    background-color: #1F2937;
+  }
+}
+
+.heading-1 {
+  color: #2C283A;
+}
+
+.hr-class {
+  color: #2F3E53;
+}
+
+.heading-dark {
+  color: #FFFFFF;
+}
+
+.p-dark {
+  color: #D5D4D8;
+}
+
+.whi {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 62px;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+}
